@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: red; }
+
+.header {
+  background-image: url("https://haltripdocs.s3-ap-southeast-1.amazonaws.com/prod/bannerImageUpload/Haltrip1_20200524120509.jpg");
+  background-color: aqua;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; 
+}
+
+.bgcolor.scrolled {
+  background-color: #441A58; }
+
+.navbar {
+  height: 80px;
+  background-color: none;
+  padding: 0 !important;
+  width: 100%;
+  position: fixed !important;
+  z-index: 2; }
+
+.navbar-brand {
+  color: #ffffff !important;
+  font-size: 2rem !important;
+  font-weight: bold;
+  padding: 2.5rem; }
+
+.navbar ul li a {
+  position: relative;
+  margin: 10px;
+  color: #ffffff !important; }
+
+.navbar ul li a:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+  background: #BC0D71;
+  transform: scaleX(0);
+  transform-origin: bottom;
+  transition: transform .4s linear; }
+
+.navbar ul li a:hover:before {
+  transform: scaleX(1);
+  transform-origin: bottom;
+  color: #ffffff; }
+
+.btn {
+  padding: 0 !important; }
+
+.btn a {
+  background-color: #BC0D71;
+  padding: 30px 40px;
+  text-decoration: none;
+  color: #ffffff;
+  list-style: none; }
+
+.btn a:hover {
+  text-decoration: none;
+  background-color: rgba(63, 70, 67, 0.1);
+  color: #ffffff; }
+
+/***********************header end****************************/
+/***********************exclusive start****************************/
+.exclusive-partner {
+  width: 100%;
+  height: auto;
+  padding-top: 20px; }
+
+.exclusive-div {
+  padding: 5px; }
+
+.exclusive-partner h2 {
+  color: #53656E;
+  text-align: center;
+  padding-top: 50px; }
+
+.exclusive-div img {
+  height: 55px;
+  width: 200px; }
+
+/***********************exclusive end****************************/
+/***********************solution start****************************/
+.solution {
+  padding-top: 30px;
+  width: 100%;
+  height: auto;
+  margin: 20px,0;
+  background-color: #F4FEFF;
+  padding-bottom: 20px; }
+
+.solution h2 {
+  color: #53656E;
+  text-align: center;
+  padding-top: 50px; }
+
+.container {
+  padding: 20px; }
+
+.card {
+  background-color: #F4FEFF !important;
+  border: none !important;
+  color: #0D3050; }
+
+.card:hover {
+  box-shadow: 0 4px 30px 2px lightgray, 0 3px 4px 0 lightgray; }
+
+.card-text .fa {
+  color: #BC0D71 !important; }
+
+.card-body a {
+  color: #53656E;
+  cursor: pointer; }
+
+.card-body p {
+  color: #53656E; }
+
+.card-body a:hover {
+  color: #BC0D71;
+  list-style-type: none;
+  text-decoration: none; }
+
+/***********************solution end****************************/
+/***********************Haltrip start****************************/
+.Haltrip {
+  width: 100%;
+  height: auto;
+  margin: 50px,0;
+  padding-top: 30px;
+  color: #53656E;
+  padding-bottom: 20px; }
+
+.Haltrip h2 {
+  color: #53656E;
+  text-align: center;
+  padding-top: 50px; }
+
+.fa-div {
+  text-align: center;
+  padding-top: 30px;
+  margin: 0 auto; }
+
+.Haltrip h3 {
+  color: #0D3050 !important;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px; }
+
+/***********************Haltrip end****************************/
+/***********************grid start****************************/
+.grid-section {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  background-image: url(https://www.haltrip.com/assets/media/funfact-bg@2x.jpg);
+  padding-bottom: 20px; }
+
+.grid-div {
+  height: 190px;
+  padding: 10px; }
+
+.text-div {
+  display: flex;
+  height: 160px;
+  text-align: center;
+  color: #ffffff; }
+
+.txt-1 {
+  padding-top: 40px;
+  height: 160px;
+  width: 450px;
+  background-color: #47C3CF; }
+
+.txt-2 {
+  padding-top: 40px;
+  height: 160px;
+  width: 700px;
+  background-color: #EC108E; }
+
+.txt-3 {
+  padding-top: 40px;
+  height: 160px;
+  width: 600px;
+  background-image: linear-gradient(rgba(84, 125, 240, 0.2), rgba(60, 123, 175, 0.2)), url(../images/2.jpg); }
+
+.txt-4 {
+  padding-top: 40px;
+  height: 160px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #0D3050; }
+
+.txt-5 {
+  padding-top: 40px;
+  height: 160px;
+  width: 100%;
+  background-color: #2CBD52; }
+
+.img-div {
+  width: 250px; }
+
+/***********************grid end****************************/
+/***********************some-partner start****************************/
+.some-partner {
+  width: 100%;
+  height: auto;
+  margin: 70px,0;
+  padding-top: 50px; }
+
+.some-partner h2 {
+  color: #53656E;
+  text-align: center;
+  padding-top: 50px; }
+
+.some-div {
+  margin: .5rem; }
+
+/***********************some-partner end****************************/
+/***********************media start****************************/
+.media-section {
+  width: 100%;
+  height: auto;
+  margin: 70px,0;
+  padding-top: 50px;
+  padding-bottom: 30px; }
+
+.media-section h2 {
+  color: #53656E;
+  text-align: center;
+  padding-top: 50px; }
+
+.media-section p {
+  color: #53656E;
+  text-align: center; }
+
+.media-div {
+  align-items: center;
+  padding: 0 !important; }
+
+.media-div img {
+  height: 90px;
+  width: 100%; }
+
+/***********************media end****************************/
+/***********************card2 start****************************/
+.card2 {
+  padding-top: 50px;
+  width: 100%;
+  height: auto;
+  margin: 20px,0; }
+
+.card img {
+  width: 100%;
+  height: 250px; }
+
+.card-body h5 {
+  color: #000000;
+  cursor: pointer;
+  font-weight: bold; }
+
+.card.shadow-sm {
+  box-shadow: none !important; }
+
+.card-body h5:hover {
+  color: #BC0D71; }
+
+.card-body :first-child {
+  color: #000000;
+  padding-top: 10px;
+  cursor: pointer; }
+
+.card-body :first-child:hover {
+  color: #BC0D71; }
+
+.hr-part {
+  padding-top: 20px; }
+
+/***********************card2 end****************************/
+/***********************form start****************************/
+.form {
+  padding-top: 30px;
+  width: 100%;
+  height: auto;
+  margin: 20px,0; }
+
+.form-card {
+  color: #53656E;
+  margin: 20px; }
+
+.form-card h3 {
+  padding-top: 20px; }
+
+.frm {
+  padding-top: 30px; }
+
+.form-group .form-control {
+  padding: 25px !important;
+  font-size: 18px; }
+
+.form-group .btn {
+  font-weight: bold;
+  padding: 15px 35px !important;
+  background-color: #2FA8B4 !important;
+  color: #ffffff; }
+
+.form-div :first-child {
+  color: #BC0D71;
+  margin-bottom: 0; }
+
+.form-div :last-child {
+  padding-top: 8px; }
+
+.icon {
+  display: flex;
+  height: 150px;
+  width: 100%; }
+
+.icon a {
+  height: 50px;
+  width: 50px;
+  background-color: gray;
+  border-radius: 25px;
+  text-align: center;
+  margin: 10px; }
+
+.icon a:hover {
+  background-color: #BC0D71; }
+
+.icon i {
+  line-height: 52px; }
+
+.fa {
+  color: #ffffff; }
+
+/***********************form end****************************/
+/***********************footer start****************************/
+.footer {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px; }
+
+.footer a {
+  text-decoration: none;
+  color: #53656E;
+  margin: 10px; }
+
+.footer p {
+  color: #53656E; }
+
+.footer a:hover {
+  text-decoration: none;
+  list-style-type: none;
+  color: #BC0D71; }
+
+/***********************footer end****************************/
+
+/*# sourceMappingURL=style.css.map */
